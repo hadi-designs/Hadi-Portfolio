@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hadi | Creative Designer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/HADI-LOGO.png.png">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">HADI</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-text">HELLO, I'M</p>
+
+        <h1>
+            Hadi <br>
+            <span>Creative Designer.</span>
+        </h1>
+
+        <p class="description">
+            I create eye-catching thumbnails, posters and meaningful
+            logos that help brands and creators stand out.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#portfolio" class="btn">
+                View My Work
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+                Let's Talk
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="about" class="section about-section">
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <p class="section-label">ABOUT ME</p>
+
+            <h2>Turning Ideas Into <span>Visuals.</span></h2>
+
+            <p>
+                I'm Hadi, a creative designer focused on creating
+                eye-catching thumbnails, posters and meaningful logos.
+                I enjoy turning simple ideas into visuals that stand out.
+            </p>
+
+            <p>
+                I'm continuously improving my design skills and exploring
+                new creative ideas to build better work for creators and brands.
+            </p>
+
+        </div>
+
+        <div class="skills">
+
+            <h3>My Skills</h3>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Thumbnail Design</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress thumbnail"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Poster Design</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress poster"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Logo Design</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-progress logo"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="services" class="section">
+
+    <p class="section-label">WHAT I DO</p>
+
+    <h2>My Services</h2>
+
+    <p class="section-description">
+        Creative design services focused on making your brand
+        and content stand out.
+    </p>
+
+    <div class="services">
+
+        <div class="card">
+            <div class="service-icon">✦</div>
+
+            <h3>Thumbnail Design</h3>
+
+            <p>
+                Eye-catching thumbnails designed to grab attention
+                and increase clicks.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="service-icon">◆</div>
+
+            <h3>Poster Design</h3>
+
+            <p>
+                Modern and attractive posters created for brands,
+                products and social media.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="service-icon">◈</div>
+
+            <h3>Logo Design</h3>
+
+            <p>
+                Creative and meaningful logos that give brands
+                a unique visual identity.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="portfolio" class="section">
+
+            <h2>My Work</h2>
+
+            <div class="portfolio">
+
+    <div class="project">
+        <img src="images/Monosa.png" alt="Monosa Design" onclick="openImage(this.src)">
+    </div>
+
+    <div class="project">
+        <img src="images/Miyo.png" alt="Miyo Design" onclick="openImage(this.src)">
+    </div>
+
+    <div class="project">
+        <img src="images/HANA.png" alt="HANA Design" onclick="openImage(this.src)">
+    </div>
+
+</div>
+
+<!-- Image Popup -->
+
+<div id="imagePopup" class="image-popup" onclick="closeImage()">
+
+    <span class="close-btn">&times;</span>
+
+    <img id="popupImage" src="" alt="Preview">
+
+</div>
+
+        </section>
+
+        <section id="contact" class="section contact">
+
+    <p class="section-label">GET IN TOUCH</p>
+
+    <h2>Let's Work Together.</h2>
+
+    <p class="contact-description">
+        Have a project in mind or want to work together?
+        Send me a message and let's create something amazing.
+    </p>
+
+    <div class="contact-buttons">
+
+        <a href="mailto:your@email.com" class="btn">
+            Email Me
+        </a>
+
+        <a href="#home" class="btn secondary-btn">
+            Back to Top
+        </a>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>� 2026 Hadi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
