@@ -195,6 +195,23 @@ nav {
     box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
 }
 
+.project-info {
+    padding: 15px 18px;
+    background: #15151c;
+}
+
+.project-info h3 {
+    margin: 0 0 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.project-info p {
+    margin: 0;
+    color: #8b5cf6;
+    font-size: 14px;
+}
+
 .project:hover {
     transform: scale(1.03);
     border-color: #8b5cf6;
